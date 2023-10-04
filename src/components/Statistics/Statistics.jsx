@@ -7,7 +7,6 @@ export class Statistics extends Component {
 
     return (
       <>
-        <h2>Statistics</h2>
         <List>
           <Item>Good:{good}</Item>
           <Item>Neutral: {neutral}</Item>
