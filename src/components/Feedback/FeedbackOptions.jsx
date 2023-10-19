@@ -6,7 +6,7 @@ export class FeedbackOptions extends React.Component {
     const { options, onLeaveFeedback } = this.props;
 
     const buttons = options.map(option => (
-      <Item>
+      <Item key={option}>
         <Button type="button" onClick={onLeaveFeedback} name={option}>
           {option}
         </Button>
